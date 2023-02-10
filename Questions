@@ -9,3 +9,10 @@
 7. Construct a C program to implement non-preemptive SJF algorithm.
 8. Construct a C program to simulate Round Robin scheduling algorithm with C.
 
+
+
+17. C program for page replecement( fifo ).
+18. C program for page replacement( LRU ).
+19. C program for page replacement(Optimal).
+20. c program for memory allocation(first fit).
+

@@ -23,6 +23,7 @@ int main()
     }
     printf("P[%d]\t|\t%d\t|\t%d\n", smallest + 1, time + burst_time[smallest] - at[smallest], time - at[smallest]);
     sumt += time + burst_time[smallest] - at[smallest];
+    
     sumw += time - at[smallest];
     time += burst_time[smallest];
     burst_time[smallest] = 0;

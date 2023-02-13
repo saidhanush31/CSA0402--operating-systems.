@@ -48,6 +48,7 @@ int main()
         printf("%d %d\t%d\n",i+1,a[i].WT,a[i].TAT);
     }
     printf("Avg waiting time of the process  is %f\n",Avg_WT);
+    
     printf("Avg turn around time of the process is %f\n",Avg_TAT);
     return 0;
 }

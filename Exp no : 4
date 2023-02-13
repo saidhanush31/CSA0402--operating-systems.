@@ -45,6 +45,7 @@ int main()
 			A[i][1], A[i][2], A[i][3]);
 	}
 	avg_tat = (float)total / b;
+	
 	printf("Average Waiting Time= %f", avg_wt);
 	printf("\nAverage Turnaround Time= %f", avg_tat);
 }

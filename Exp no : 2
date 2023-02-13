@@ -24,6 +24,7 @@ int main()
 	{
 		fputc(c, fptr2);
 		c = fgetc(fptr1);
+		
 	}
 	printf("\nContents copied to %s", filename);
 	fclose(fptr1);

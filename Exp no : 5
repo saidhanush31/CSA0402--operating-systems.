@@ -54,7 +54,7 @@ int main()
     process[i].turn_around_time = process[i].burst_time + process[i].waiting_time;
     total += process[i].turn_around_time;
     printf("\t  %c \t\t  %d \t\t %d \t\t %d", process[i].process_name, process[i].burst_time, process[i].waiting_time, process[i].turn_around_time);
-    printf("\n------------------------------------------------------------------\n");
+    printf("\n-----------------------------------------------------------------\n");
   } 
   average_turnaround_time = (float) total / (float) number_of_process;
   printf("\n\n Average Waiting Time : %f", average_waiting_time);
